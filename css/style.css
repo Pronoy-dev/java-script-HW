@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ======== Player one box ========= */
+
+.playerOneBoxInfo {
+  width: 400px;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  row-gap: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.playerOneInputField {
+  padding: 20px 40px;
+}
+
+.startBtn {
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* ======== Player one box ========= */
+
+/* ======== Player two box ========= */
+
+.playerTwoBox {
+  display: none;
+}
+.playerTwoBoxInfo {
+  width: 400px;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 168, 170);
+  row-gap: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.playerTwoInputField {
+  padding: 20px 40px;
+}
+
+.GuessBtn {
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.PlayAgainBtn {
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: none;
+}
+
+/* ======== Player two box ========= */
