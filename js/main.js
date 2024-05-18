@@ -35,3 +35,5 @@ function copyColorCode(colorCode) {
   copyDone.style.display = "block";
   heading.innerHTML = `Copy done ${colorCode}`;
 }
+
+// color work done
