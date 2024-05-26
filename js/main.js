@@ -286,3 +286,4 @@ console.log(nav);
 // containerStyle.forEach(element => {
 
 // });
+// ========== navBar done========
