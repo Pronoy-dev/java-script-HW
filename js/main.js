@@ -18,3 +18,5 @@ function imgChanger(ImgUrl) {
   bigImgUrl = ImgUrl.split("/").splice(9).join("/");
   bigImg.src = bigImgUrl;
 }
+
+// ==== popup work done
