@@ -13,3 +13,5 @@ ArrayCount.map((item) => {
     CounterUp();
   }, 100);
 });
+
+// ======== counter up work done
