@@ -37,3 +37,5 @@ function copyColorCode(colorCode) {
 }
 
 // color work done
+
+// ========= color genarator done
